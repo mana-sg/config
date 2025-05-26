@@ -1,0 +1,76 @@
+#General
+confirm-close-surface = false
+shell-integration-features = no-cursor
+
+
+#cursor
+cursor-style = block
+
+
+#Window
+window-padding-x = 10
+window-padding-y = 10
+window-decoration = false
+background-opacity = 0.8
+
+
+#Font
+font-family = "MesloLGS Nerd Font Mono"
+
+
+#Theme
+theme = "GitHub Dark"
+
+
+#Keybinds
+## Tab and Navigation
+keybind = ctrl+t=new_tab
+keybind = ctrl+alt+right=next_tab
+keybind = ctrl+alt+left=previous_tab
+keybind = ctrl+one=goto_tab:1
+keybind = ctrl+two=goto_tab:2
+keybind = ctrl+three=goto_tab:3
+keybind = ctrl+four=goto_tab:4
+keybind = ctrl+five=goto_tab:5
+keybind = ctrl+six=goto_tab:6
+keybind = ctrl+seven=goto_tab:7
+keybind = ctrl+eight=goto_tab:8
+keybind = ctrl+nine=goto_tab:9
+
+## Splits
+keybind = ctrl+h=new_split:right
+keybind = ctrl+H=new_split:down
+keybind = ctrl+shift+down=goto_split:down
+keybind = ctrl+shift+up=goto_split:up
+keybind = ctrl+shift+left=goto_split:left
+keybind = ctrl+shift+right=goto_split:right
+
+## Copy
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
+## Selection
+keybind = shift+left=adjust_selection:left
+keybind = shift+right=adjust_selection:right
+keybind = shift+ctrl+right=text:\x1b\x66
+keybind = shift+ctrl+left=text:\x1b\x62
+
+## Cursor
+# Move to the beginning of line
+keybind = ctrl+left=text:\x01         
+# Move to the end of line
+keybind = ctrl+right=text:\x05        
+# Move back one word
+keybind = alt+left=text:\x1b\x62      
+# Move ahead one word 
+keybind = alt+right=text:\x1b\x66     
+
+## General
+keybind = super+r=reload_config
+keybind = ctrl+w=close_surface
+keybind = ctrl+up=toggle_maximize
+keybind = ctrl+backspace=text:\x15
+keybind = super+c=text:\x03
+
+
+

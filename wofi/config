@@ -1,0 +1,10 @@
+show=drun
+prompt=🔍 Launch
+width=600
+height=500
+location=center
+allow_markup=true
+insensitive=true
+term=foot
+hide_scroll=true
+always_parse_args=true

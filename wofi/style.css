@@ -1,0 +1,38 @@
+window {
+  margin: 0px;
+  border: 2px solid #4e8cff;
+  background-color: rgba(30, 30, 46, 0.95);
+  border-radius: 16px;
+  font-family: "Fira Code", sans-serif;
+  font-size: 16px;
+  color: #e6e6e6;
+}
+
+#input {
+  margin: 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #1e1e2e;
+  color: #ffffff;
+  border: 2px solid #4e8cff;
+  font-weight: bold;
+}
+
+#entry {
+  padding: 10px;
+  margin: 6px 16px;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+#entry:selected {
+  background-color: #4e8cff;
+  color: #1e1e2e;
+}
+
+#entry image {
+  margin-right: 12px;
+  min-height: 24px;
+  min-width: 24px;
+}
