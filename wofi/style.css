@@ -1,9 +1,9 @@
 window {
   margin: 0px;
   border: 2px solid #4e8cff;
-  background-color: rgba(30, 30, 46, 0.95);
+  background-color: rgba(30, 30, 46, 0.95); /* semi-transparent dark */
   border-radius: 16px;
-  font-family: "Fira Code", sans-serif;
+  font-family: "JetBrainsMono Nerd Font", "Fira Code", sans-serif;
   font-size: 16px;
   color: #e6e6e6;
 }
